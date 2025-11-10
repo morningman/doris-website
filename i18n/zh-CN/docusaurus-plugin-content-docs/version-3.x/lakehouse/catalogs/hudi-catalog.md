@@ -52,7 +52,9 @@ CREATE CATALOG [IF NOT EXISTS] catalog_name PROPERTIES (
 
 ### 支持的 Hudi 版本
 
-当前依赖的 Hudi 版本为 0.15。推荐访问 0.14 版本以上的 Hudi 数据。
+Doris 3.1.0 版本之前，依赖的 Hudi 版本为 0.15。3.1.0 版本之后，依赖的 Hudi 版本为 1.0.2。
+
+推荐访问 0.14 版本以上的 Hudi 数据。
 
 ### 支持的查询类型
 

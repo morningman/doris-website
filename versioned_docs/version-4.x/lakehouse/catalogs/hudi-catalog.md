@@ -52,7 +52,9 @@ CREATE CATALOG [IF NOT EXISTS] catalog_name PROPERTIES (
 
 ### Supported Hudi Versions
 
-The current dependent Hudi version is 0.15. It is recommended to access Hudi data version 0.14 and above.
+Before Doris 3.1.0, the dependent Hudi version is 0.15. After 3.1.0, the dependent Hudi version is 1.0.2.
+
+It is recommended to access Hudi data version 0.14 and above.
 
 ### Supported Query Types
 
